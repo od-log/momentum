@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Momentum</title>
+</head>
+<body>
+    <div class="common clock">
+        <h2 id="clock" >00:00:00</h2>
+    </div>
+    <form id="login-form" class="hidden common">
+        <input class="input" required maxlength="15" type="text" placeholder="뭐라고 불러드릴까요?" name="" id="">
+        <button>Log In</button>
+        <!-- <input type="submit"/> -->
+    </form>
+    <h1 id="greeting" class="hidden common"></h1>
+    
+    <div id="weather" class="common weather">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="common todo">
+        <form action="" id="todo-form" >
+            <input required type="text" name="" id="" placeholder="기억해야 할 일을 메모해보세요."/>
+        </form>
+        <ul id="todo-list"></ul>
+    </div>
+    <div id="quote" class="common quote">
+        <span></span>
+        <span></span>
+    </div>
+    <script src="js/app.js"></script>
+    <script src="js/key.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="https://unpkg.com/typeit@8.4.0/dist/index.umd.js"></script>
+</body>
+</html>

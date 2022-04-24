@@ -1,0 +1,88 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 95vh;
+}
+
+h2{
+    margin: 0;
+    font-size: 5rem;
+}
+
+.hidden {
+    display: none;
+}
+
+.common{
+    color: #fff;
+    background-color: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 15px;
+    padding: 1rem;
+    margin: 0.5rem;
+    backdrop-filter: blur(10px);
+}
+
+
+input{
+    padding: 0.5rem;
+    width: 15rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+button {
+    display: inline-block;
+    padding: 0.5rem;
+    border: 0;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    background-color: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(30px);
+    color: rgba(255,255,255,0.8);
+    font-size: 14px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.weather{
+    position: absolute;
+    top:0;
+    right:0;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    margin-top: 0.5rem;
+    width: 50vw;
+    height: 10vh;
+}
+
+.todo > form {
+    display: flex;
+    justify-content: center;
+}
+
+.todo > ul {
+    display: flex;
+}
+
+.todo > ul > li {
+    padding: 0rem 0.5rem;
+    margin: 0rem 0.5rem;
+}
+
+
+.todo_button {
+    padding: 0.3rem;
+    margin: 0.5rem;
+}
